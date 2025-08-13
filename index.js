@@ -16,12 +16,19 @@ function upMessageBox() {
 
     if (messageListDOM.innerHTML.trim()) {
         messageListDOM.classList.toggle("my-border")
+        messageListDOM.classList.toggle("px-4")
+        messageListDOM.classList.toggle("pb-2")
+        messageListDOM.classList.toggle("pt-2")
 
         messageListDOM.innerHTML = ` `
 
     }
     else {
         messageListDOM.classList.toggle("my-border")
+        messageListDOM.classList.toggle("px-4")
+        messageListDOM.classList.toggle("pb-2")
+        messageListDOM.classList.toggle("pt-2")
+
 
         messageListDOM.innerHTML = `
         <div class="d-flex align-items-center">

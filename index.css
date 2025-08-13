@@ -37,6 +37,25 @@ input {
     margin-right: auto;
 }
 
+@media (max-width: 1200px) {
+    .left-nav {
+        margin-left: 16%;
+        margin-right: 15px
+    }
+
+    .right-nav {
+        margin-left: 30px;
+        margin-right: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .left-nav {
+        margin-left: 5%;
+        margin-right: 0px;
+    }
+}
+
 @media (max-width: 576px) {
     .left-nav {
         margin-left: 15%;
@@ -49,6 +68,14 @@ input {
         align-items: center;
         font-size: x-large;
     }
+
+    .my-container {
+        margin-top: 70px !important;
+    }
+}
+
+.my-container {
+    margin-top: 100px;
 }
 
 .right-next-nav {

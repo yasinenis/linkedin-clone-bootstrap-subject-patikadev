@@ -47,6 +47,23 @@ input {
         margin-left: 30px;
         margin-right: 20px;
     }
+
+    .big-pp {
+    position: absolute;
+    margin-left: 65px !important;
+    margin-top: 20px !important;
+    }
+
+    .white-pp {
+    position: absolute;
+    width: 105px;
+    height: 105px;
+    background-color: #fcfcff;
+    border-radius: 50%;
+    margin-left: 62.5px !important;
+    margin-top: 17.5px !important;
+}
+
 }
 
 @media (max-width: 768px) {
@@ -214,4 +231,39 @@ a {
     width: 350px;
     border-radius: 5px;
     background-color: #fcfcff;
+}
+
+.point-it {
+    cursor: pointer;
+}
+
+.angle-up {
+    border-radius: 5px;
+}
+
+.angle-up:hover {
+    color: white;
+    background-color: black;
+}
+.nav {
+    color: #666666;
+    cursor: pointer;
+}
+
+.nav:hover {
+    color: black;
+}
+
+.like-buttons {
+    color:#666666;
+    cursor: pointer;
+}
+
+.like-buttons:hover {
+    color: black;
+}
+
+.post-profil-img {
+    width: 60px;
+    height: 60px;
 }
